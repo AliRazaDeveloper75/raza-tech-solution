@@ -95,14 +95,7 @@ const Footer = () => {
                   WordPress
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/services"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Shopify
-                </Link>
-              </li>
+
               <li>
                 <Link
                   to="/services"
@@ -150,14 +143,7 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Blog
-                </a>
-              </li>
+
               <li>
                 <a
                   href="#"

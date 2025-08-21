@@ -1,6 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Code, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  Code,
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,19 +28,32 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-gray-400 text-sm leading-6">
-              Transforming ideas into digital reality with cutting-edge technology solutions and creative excellence.
+              Transforming ideas into digital reality with cutting-edge
+              technology solutions and creative excellence.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -41,12 +63,54 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Web Development</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Graphic Design</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Full Stack Development</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">WordPress</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Shopify</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Video Editing</Link></li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Web Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Graphic Design
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Full Stack Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  WordPress
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Shopify
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Video Editing
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -54,12 +118,54 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
-              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/portfolio" className="text-gray-400 hover:text-white transition-colors">Portfolio</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/portfolio"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -69,15 +175,28 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400 text-sm">123 Tech Street, Digital City, DC 12345</span>
+                <span className="text-gray-400 text-sm">
+                  I.T Tower, Gulberg Lahore <br />
+                  Pakistan
+                </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-400 text-sm">
+                  +92 (304) 330 9005
+                </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400 text-sm">info@razatechsolution.com</span>
+                <span className="text-gray-400 text-sm">
+                  alirazadeveloper75@gmail.com
+                </span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Mail className="h-4 w-4 text-blue-400" />
+                <span className="text-gray-400 text-sm">
+                  razatechsolution27@gmail.com
+                </span>
               </div>
             </div>
           </div>
@@ -88,8 +207,18 @@ const Footer = () => {
             © 2025 Raza-Tech-Solution. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>
